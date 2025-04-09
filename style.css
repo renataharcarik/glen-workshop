@@ -1,0 +1,70 @@
+/* Profile Section */
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Dark Mode for Card */
+.card.dark-mode {
+    background: #222;
+    border: 4px solid #00FFFF;
+    box-shadow: 4px 4px 0px #00FFFF;
+    color: #A3FF00;
+}
+
+.glow-btn {
+  background: #a3ff00;
+  border: 3px solid #ffd700;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px #ffd700;
+  margin: 15px;
+  width: 90px;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    border: 3px solid #FFD700;
+}
+
+/* Fuel Container */
+.fuel-container {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+/* Fuel Level Bar */
+.fuel-bar {
+    width: 87%; /* Start at 87% */
+    height: 100%;
+    background: #FFD700;
+    transition: width 0.5s ease-in-out;
+}
+
+.censored {
+  filter: blur(15px);
+}
+
+/* General Page Style */
+body {
+    background-image: linear-gradient(rgba(0, 30, 20, 0.5), rgba(40, 10, 0, 0.5)), url("https://www.dropbox.com/scl/fi/t5gxppleo1tha2uullqfq/space.jpg?rlkey=vti45hyovoi9erly5lgyi5n5b&st=0dwpx174&raw=1");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.space-around {
+  padding: 10px;
+}
